@@ -59,7 +59,7 @@ class DynamicImportException(Exception):
 
 class MissingPluginException(Exception):
     """
-    An excpetion that captures a missing openmetadata-ingestion plugin for a specific connector.
+    An exception that captures a missing openmetadata-ingestion plugin for a specific connector.
     """
 
     def __init__(self, plugin: str):
